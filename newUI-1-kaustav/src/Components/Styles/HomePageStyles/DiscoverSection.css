@@ -1,0 +1,62 @@
+.discover-heading{
+    margin:0% 10%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: xxx-large;
+    text-align: center
+}
+
+@media screen and (min-width: 881px){
+    .discover-heading{
+        font-size: 68px;
+        margin: 2% 20%;
+    }
+}
+
+@media screen and (max-width: 881px){
+    .discover-heading{
+        font-size: 38px;
+        margin: 2% 5%;
+    }
+}
+
+
+.discover-para{
+    margin:2% 20%; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: x-large;
+    text-align: center
+}
+
+@media screen and (min-width: 881px){
+    .discover-para{
+        font-size: 28px;
+        color: #636363;
+    }
+}
+
+@media screen and (max-width: 881px){
+    .discover-para{
+        font-size: 18px;
+        color: #636363;
+    }
+}
+
+.discover-explore-btn{
+    background: #6739B7; border-radius:6px
+}
+.discover-create-btn{
+    background: #FFFFFF; color:black; border: 1px solid #6739B7; border-radius:6px;
+}
+.discover-create-btn:hover{
+    cursor: not-allowed
+}
+.learn-more-anchor{
+    text-decoration:none
+}
+.learn-more-anchor p{
+    font-size:large; color: #6739B7
+}

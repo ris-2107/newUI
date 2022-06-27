@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1061px) {
+  .sortBtns {
+    float: right;
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .sortBtns {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
